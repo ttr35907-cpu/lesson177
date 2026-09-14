@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Beren Gold — өзгөчө күндөр үчүн мыкты зер буюмдар.">
+  <title>Beren Gold — Зергер дүкөнү</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#home">BEREN <span>GOLD</span></a>
+    <button class="menu-button" aria-label="Менюну ачуу">☰</button>
+    <nav class="nav">
+      <a href="collection.html">Коллекциялар</a>
+      <a href="about.html">Биз жөнүндө</a>
+      <a href="about.html#contact">Байланыш</a>
+    </nav>
+    <button class="cart-button" aria-label="Себет">
+      <span>Себет</span><b id="cart-count">0</b>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">СЕЗОНДУН ЖАҢЫЛЫГЫ</p>
+        <h1>Сиздин нуруңузга<br><em>татыктуу</em> алтын</h1>
+        <p class="hero-text">Ар бир көз ирмемди баалуу кылган назик жана заманбап зер буюмдар.</p>
+        <a class="primary-button" href="collection.html">Коллекцияны көрүү <span>→</span></a>
+      </div>
+      <div class="hero-art">
+        <div class="hero-ring"></div>
+        <p>BEREN GOLD<br><span>EST. 2012</span></p>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div><span>✦</span><p><b>585 сынама</b>Сапат кепилдиги</p></div>
+      <div><span>◈</span><p><b>Акысыз жеткирүү</b>Бишкек шаарында</p></div>
+      <div><span>♡</span><p><b>Белек таңгак</b>Ар бир буюм үчүн</p></div>
+    </section>
+
+    <section class="collection" id="collection">
+      <div class="section-heading">
+        <div><p class="eyebrow">ТАНДАЛГАН БУЮМДАР</p><h2>Жаңы коллекция</h2></div>
+        <a href="collection.html">Баарын көрүү →</a>
+      </div>
+      <div class="products">
+        <article class="product-card">
+          <div class="product-image ring-product"><span>ЖАҢЫ</span></div>
+          <div class="product-info"><h3>"Ай нуру" шакеги</h3><p>585 алтын, фианит</p><div><strong>28 500 сом</strong><button class="add-button" data-name="Ай нуру шакеги">+</button></div></div>
+        </article>
+        <article class="product-card">
+          <div class="product-image earrings-product"></div>
+          <div class="product-info"><h3>"Бермет" сөйкө</h3><p>585 алтын, бермет</p><div><strong>34 900 сом</strong><button class="add-button" data-name="Бермет сөйкө">+</button></div></div>
+        </article>
+        <article class="product-card">
+          <div class="product-image necklace-product"><span>ХИТ</span></div>
+          <div class="product-info"><h3>"Назик" чынжыры</h3><p>585 алтын</p><div><strong>42 000 сом</strong><button class="add-button" data-name="Назик чынжыры">+</button></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="story" id="about">
+      <div class="story-photo"><div class="gold-circle">BG</div></div>
+      <div class="story-content"><p class="eyebrow">БИЗДИН БАЯН</p><h2>Сүйүү менен<br>жасалган сулуулук</h2><p>Beren Gold — 10 жылдан ашык убакыттан бери баалуу сезимдерди зер буюмдарга айлантып келе жаткан үй-бүлөлүк бренд.</p><a href="about.html" class="text-link">Биз жөнүндө көбүрөөк →</a></div>
+    </section>
+
+    <section class="newsletter" id="contact">
+      <p class="eyebrow">BEREN GOLD CLUB</p>
+      <h2>Өзгөчө сунуштардан<br>кабардар болуңуз</h2>
+      <form id="subscribe-form"><input type="email" placeholder="Email дарегиңиз" required><button type="submit">Жазылуу</button></form>
+      <p class="form-message" id="form-message"></p>
+    </section>
+  </main>
+
+  <footer><a class="logo" href="#home">BEREN <span>GOLD</span></a><p>© 2026 Beren Gold. Сулуулук майда-баратына чейин.</p><div><a href="#">Instagram</a><a href="#">WhatsApp</a></div></footer>
+  <script src="app.js"></script>
+</body>
+</html>
